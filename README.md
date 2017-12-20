@@ -12,6 +12,15 @@ pip install selenium
 ```
 Chrome WebDriver: [Install](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
+### How to use
+Clone the repository and run in terminal:
+```
+git clone https://github.com/akshatjain02/AutoWish.git
+cd AutoWish
+python3 FB_Wisher.py
+```
+You can also download the ZIP file, extract it, and run FB_Wisher.py script in a text editor like Sublime Text. For enabling console inputs in Sublime Text, see point 3 under Notes.
+
 ### Notes
 1. When creating a browser instance for the Chrome WebDriver in the code, set the path argument as the location of the chromedriver executable file.
 2. The password input may be echoed. Be careful while testing the script in presence of other people.
