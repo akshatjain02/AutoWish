@@ -18,7 +18,7 @@ Clone the repository and run in terminal:
 cd
 git clone https://github.com/akshatjain02/AutoWish.git
 cd AutoWish
-pip install -U -r requirements.txt
+sudo pip install -U -r requirements.txt
 python3 FB_Wisher.py
 ```
 You can also download the ZIP file, extract it, and run FB_Wisher.py script in a text editor like Sublime Text. For enabling console inputs in Sublime Text, see point 3 under Notes.
