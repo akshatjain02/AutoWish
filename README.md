@@ -1,7 +1,7 @@
 # AutoWish
-AutoWish is an automation script which wishes all your facebook friends who have their birthday today by posting 'Happy birthday' (customizable) on their facebook walls.
+AutoWish is an automation script which wishes 'Happy birthday' to all your facebook friends who have their birthday today by posting on their facebook timelines.
 
-It uses Selenium Webdriver to create a browser object and login to your facebook ID after you enter your login credentials as input when prompted for.
+It uses Selenium WebDriver to create a browser object and login to your facebook ID after you enter your login credentials as input when prompted for.
 
 The script runs on python3
 
@@ -15,8 +15,10 @@ Chrome WebDriver: [Install](https://sites.google.com/a/chromium.org/chromedriver
 ### How to use
 Clone the repository and run in terminal:
 ```
+cd
 git clone https://github.com/akshatjain02/AutoWish.git
 cd AutoWish
+pip install -U -r requirements.txt
 python3 FB_Wisher.py
 ```
 You can also download the ZIP file, extract it, and run FB_Wisher.py script in a text editor like Sublime Text. For enabling console inputs in Sublime Text, see point 3 under Notes.
