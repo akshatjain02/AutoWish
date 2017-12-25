@@ -3,7 +3,7 @@ AutoWish is an automation script which wishes 'Happy birthday' to all your faceb
 
 It uses Selenium WebDriver to create a browser object and login to your facebook ID after you enter your login credentials as input when prompted for.
 
-The script runs on python3
+The script runs on python2
 
 ### Install requirements
 Selenium:
@@ -19,7 +19,7 @@ cd
 git clone https://github.com/akshatjain02/AutoWish.git
 cd AutoWish
 sudo pip install -U -r requirements.txt
-python3 FB_Wisher.py
+python2 FB_Wisher.py
 ```
 You can also download the ZIP file, extract it, and run FB_Wisher.py script in a text editor like Sublime Text. For enabling console inputs in Sublime Text, see point 3 under Notes.
 
