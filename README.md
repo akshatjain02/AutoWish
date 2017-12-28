@@ -29,7 +29,7 @@ You can also download the ZIP file, extract it, and run FB_Wisher.py script in a
 3. Enter your FB username and password (unechoed) as console input when asked.
 
 ### Bugs/TODOs
-- [] Add error handling in cases of login failure, already wished all friends etc.
+- [x] Add error handling in cases of login failure, already wished all friends etc.
 
 
 
