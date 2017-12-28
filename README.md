@@ -21,7 +21,7 @@ cd AutoWish
 sudo pip install -U -r requirements.txt
 python2 FB_Wisher.py
 ```
-You can also download the ZIP file, extract it, and run FB_Wisher.py script in a text editor like Sublime Text. For enabling console inputs in Sublime Text, see point 3 under Notes.
+You can also download the ZIP file, extract it, and run FB_Wisher.py script in a text editor like Sublime Text. For enabling console inputs in Sublime Text, see point 2 under Notes.
 
 ### Notes
 1. When creating a browser instance for the Chrome WebDriver in the code, set the path argument as the location of the chromedriver executable file.
