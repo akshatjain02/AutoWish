@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 from selenium import webdriver
 import time
 from selenium.webdriver.common.keys import Keys
